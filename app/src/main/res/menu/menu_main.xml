@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/action_sort_priority"
+        android:title="Sort by Priority" />
+    <item
+        android:id="@+id/action_sort_deadline"
+        android:title="Sort by Deadline" />
+</group>
+
+<item
+    android:id="@+id/action_filter_high_priority"
+    android:title="Filter: High Priority" />
+<item
+    android:id="@+id/action_filter_medium_priority"
+    android:title="Filter: Medium Priority" />
+<item
+    android:id="@+id/action_filter_low_priority"
+    android:title="Filter: Low Priority" />
+<item
+    android:id="@+id/action_clear_filter"
+    android:title="Clear Filter" />
+
+    <!-- Search Item -->
+    <item
+        android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+</menu>
